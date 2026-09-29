@@ -1,4 +1,5 @@
 import pandas as pd
+
 data = {
     '이름':['강나래','강태원','강호림','김수찬','김재욱','박동현','박혜정','승근열'],
     '학교':['신림고','신림고','신림고','신림고','신림고','디지털고','디지털고','디지털고'],
@@ -16,4 +17,4 @@ df.index.name = '지원번호'
 
 # csv파일저장 - csv,txt,xlsx
 # database프로그램과 호환가능
-df.to_csv('file/score.csv',encoding='utf-8-sig') #utf-8-sig:excel파일에 확인가능
+# df.to_csv('file/score.csv',encoding='utf-8-sig') #utf-8-sig:excel파일에 확인가능
