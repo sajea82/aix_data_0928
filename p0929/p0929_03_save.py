@@ -14,5 +14,6 @@ data = {
 df = pd.DataFrame(data,index=['1번','2번','3번','4번','5번','6번','7번','8번'])
 df.index.name = '지원번호'
 
-# 파일저장 - csv, txt, xlsx
-df.to_csv('p0929/file/score.csv',encoding='utf-8-sig') # utf-8-sig:excel파일 확인가능
+# csv파일저장 - csv,txt,xlsx
+# database프로그램과 호환가능
+df.to_csv('file/score.csv',encoding='utf-8-sig') #utf-8-sig:excel파일에 확인가능
