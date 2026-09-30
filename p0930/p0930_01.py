@@ -20,3 +20,5 @@ print(df)
 # df.index.name = '지원번호' 
 # print(df)
 # print(df['이름'])
+
+
